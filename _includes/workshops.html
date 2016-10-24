@@ -1,0 +1,30 @@
+<!-- Workshops Grid Section -->
+    <section id="workshops" class="gallery bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Workshops</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row">
+            {% assign workshops = (site.pages | where: "layout" , "workshops") %}
+            {% for workshop in workshops %}
+                <div class="col-md-4 col-sm-6 gallery-item">
+                    <a href="#workshop-modal-{{ workshop.modal-id }}" class="gallery-link" data-toggle="modal">
+                        <div class="gallery-hover">
+                            <div class="gallery-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/workshops/{{ workshop.thumbnail }}" class="img-responsive img-centered" alt="{{ workshop.alt-alt }}">
+                    </a>
+                    <div class="gallery-caption">
+                        <h4>{{ workshop.title }}</h4>
+                        <p class="text-muted">{{ workshop.date }}</p>
+                    </div>
+                </div>
+            {% endfor %}
+            </div>
+        </div>
+    </section>
