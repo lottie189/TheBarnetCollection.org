@@ -3,9 +3,13 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Our Amazing Artists</h2>
-                <h3 class="section-subheading text-muted">There are currently 21 members in the group, many of whom have lectured and taught locally, together with others who simply have a passion for their craft. Members meet frequently to plan events and share their expertise and genuine enthusiasm for the arts. The Barnet Collection continues to support various charities and has donated a considerable sum to many worthwhile causes.</h3>
+                <h2 class="section-heading">Our Artists</h2>
             </div>
+        </div>
+        <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted">There are currently 21 members in the group, many of whom have lectured and taught locally, together with others who simply have a passion for their craft.</p>
+                </div>
         </div>
         <div class="row">
             {% assign artists = (site.pages | where: "layout" , "artists") %} {% for artist in artists %}
@@ -18,10 +22,5 @@
             </div>
             {% endfor %}
         </div>
-        <!-- <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-                </div>
-            </div> -->
     </div>
 </section>
