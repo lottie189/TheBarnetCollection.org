@@ -27,9 +27,9 @@ collections:
   artists:
     output: true
     permalink: /artists/:path/
-  exhbitions:
+  exhibitions:
     output: true
-    permalink: /exhbitions/:path/
+    permalink: /exhibitions/:path/
   workshops:
     output: true
     permalink: /workshops/:path/

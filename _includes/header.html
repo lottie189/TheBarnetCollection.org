@@ -7,7 +7,7 @@
             <a href="#artists" class="page-scroll btn btn-xl">Meet the Artists</a>
         </div>
         <video id="bg-video" class="fadeIn animated" autoplay loop muted>
-            <source src="/img/bg_video.mp4" type="video/mp4" preload="metadata"/>
+            <source src="{{ '/img/bg_video.mp4' | prepend: site.baseurl }}" type="video/mp4" preload="metadata"/>
           </video>
     </div>
 </header>

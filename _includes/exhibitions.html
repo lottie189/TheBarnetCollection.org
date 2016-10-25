@@ -1,5 +1,5 @@
 <!-- Exhibitions Grid Section -->
-<section id="exhibitions" class="gallery bg-light-gray">
+<section id="exhibitions" class="gallery">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -16,7 +16,7 @@
                             <i class="fa fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="img/workshops/{{ exhibition.image.thumb }}" class="img-responsive img-centered" alt="{{ exhibition.image.alt }}">
+                    <img src="{{'/img/workshops/' | prepend: site.baseurl | append: exhibition.image.url }}" class="img-responsive img-centered" alt="{{ exhibition.image.alt }}">
                 </a>
                 <div class="gallery-caption">
                     <h4>{{ exhibition.title }}</h4>

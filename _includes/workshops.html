@@ -16,7 +16,7 @@
                             <i class="fa fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="img/workshops/{{ workshop.image.thumb }}" class="img-responsive img-centered" alt="{{ workshop.image.alt }}">
+                    <img src="{{'/img/workshops/' | prepend: site.baseurl | append: workshop.image.thumb }}" class="img-responsive img-centered" alt="{{ workshop.image.alt }}">
                 </a>
                 <div class="gallery-caption">
                     <h4>{{ workshop.title }}</h4>
