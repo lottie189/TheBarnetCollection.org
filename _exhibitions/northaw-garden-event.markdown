@@ -1,8 +1,8 @@
 ---
 title: Northaw Garden Event
 image:
-  url: escape.png
-  thumb: escape-thumbnail.png
+  url: garden.jpg
+  thumb: garden.jpg
   alt: Image description
 
 layout: exhibitions
