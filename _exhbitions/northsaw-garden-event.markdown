@@ -1,8 +1,9 @@
 ---
 title: Northaw Garden Event
-image: escape.png
-thumbnail: escape-thumbnail.png
-alt: Image description
+image:
+  url: escape.png
+  thumb: escape-thumbnail.png
+  alt: Image description
 
 layout: exhibitions
 date: 2008-06-01

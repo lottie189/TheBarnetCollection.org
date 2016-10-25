@@ -1,6 +1,7 @@
 ---
 title: Sandra Barnett
-pic: example-member.jpg
+image:
+  url: example-member.jpg
 
 layout: artists
 modal-id: 1

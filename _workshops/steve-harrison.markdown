@@ -1,8 +1,9 @@
 ---
 title: Steve Harison
-image: escape.png
-thumbnail: escape-thumbnail.png
-alt: Image description
+image:
+  url: escape.png
+  thumb: escape-thumbnail.png
+  alt: Image description
 
 layout: workshops
 modal-id: 1
