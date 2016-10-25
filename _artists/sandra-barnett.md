@@ -4,7 +4,6 @@ image:
   url: example-member.jpg
 
 layout: artists
-modal-id: 1
 date: 2016-10-20
 
 description: A clayworker, a sculptress, a ceramic artist, a potter.
