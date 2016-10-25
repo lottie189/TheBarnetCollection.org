@@ -8,9 +8,9 @@
             </div>
         </div>
         <div class="row">
-            {% assign workshops = (site.pages | where: "layout" , "workshops") %} {% for workshop in workshops %}
+            {% for workshop in site.workshops %}
             <div class="col-md-4 col-sm-6 gallery-item">
-                <a href="#workshop-modal-{{ workshop.modal-id }}" class="gallery-link" data-toggle="modal">
+                <a href="#workshop-modal-{{ workshop.title | slugify }}" class="gallery-link" data-toggle="modal">
                     <div class="gallery-hover">
                         <div class="gallery-hover-content">
                             <i class="fa fa-plus fa-3x"></i>

@@ -23,17 +23,23 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: pretty
 
+collections:
+  artists:
+    output: true
+    permalink: /artists/:path/
+  exhbitions:
+    output: true
+    permalink: /exhbitions/:path/
+  workshops:
+    output: true
+    permalink: /workshops/:path/
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
     url: http://twitter.com/
   - title: facebook
     url: http://facebook.com/
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
 
 # Build settings
 markdown: kramdown

@@ -12,7 +12,7 @@
                 </div>
         </div>
         <div class="row">
-            {% assign artists = (site.pages | where: "layout" , "artists") %} {% for artist in artists %}
+            {% for artist in site.artists %}
             <div class="col-sm-4">
                 <div class="team-member">
                     <img src="/img/artists/{{ artist.pic }}" class="img-responsive img-circle" alt="{{ artist.name }}">
