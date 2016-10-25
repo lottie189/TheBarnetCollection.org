@@ -1,5 +1,5 @@
 ---
-title: Steve Harrison
+title: Steve Harison
 image:
   url: escape.png
   thumb: roundicons-thumbnail.png

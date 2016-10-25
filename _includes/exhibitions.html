@@ -10,7 +10,8 @@
 <!-- Carousel -->
   <section class="carousel">
     <div class="reel">
-      {% for exhibition in site.exhibitions %}
+      {% assign exhibitions = (site.exhibitions | sort: 'date') %}
+      {% for exhibition in exhibitions reversed %}
       <article>
         <a href="{{'/exhibitions/' | prepend: site.baseurl | append: (exhibition.title | replace: " ","-"  | downcase)}}" class="image featured"><img src="{{'/img/exhibitions/' | prepend: site.baseurl | append: exhibition.image.thumb }}" alt="{{ exhibition.image.alt }}" /></a>
         <div class="reel-header">

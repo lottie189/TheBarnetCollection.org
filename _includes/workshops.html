@@ -8,7 +8,7 @@
             </div>
         </div>
         <div class="row">
-            {% for workshop in site.workshops %}
+            {% for workshop in site.workshops | sort: 'date', 'last' %}
             <div class="col-md-4 col-sm-6 gallery-item">
                 <a href="{{'/workshops/' | prepend: site.baseurl | append: workshop.title | replace: " ","-" | downcase }}" class="gallery-link" data-toggle="modal">
                     <div class="gallery-hover">
