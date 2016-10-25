@@ -19,7 +19,7 @@
         </div>
         <p>{{ exhibition.description }}</p>
         <div class="reel-footer">
-          <h4>{{ exhibition.date }}</h4>
+          <h4>{{ exhibition.date | date_to_string | slice:3,8 }}</h4>
         </div>
       </article>
       {% endfor %}

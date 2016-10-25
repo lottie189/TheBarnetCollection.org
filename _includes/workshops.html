@@ -20,7 +20,7 @@
                 </a>
                 <div class="gallery-caption">
                     <h4>{{ workshop.title }}</h4>
-                    <p class="text-muted">{{ workshop.date }}</p>
+                    <p class="text-muted">{{ workshop.date | date_to_string | slice:3,8 }}</p>
                 </div>
             </div>
             {% endfor %}

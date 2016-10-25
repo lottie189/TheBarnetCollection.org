@@ -2,7 +2,7 @@
 title: Steve Harison
 image:
   url: escape.png
-  thumb: escape-thumbnail.png
+  thumb: roundicons-thumbnail.png
   alt: Image description
 
 layout: workshops

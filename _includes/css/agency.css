@@ -402,9 +402,11 @@ fieldset[disabled] .btn-xl.active {
 				left: -1em;
 				top: 0;
 				width: auto;
-				margin-right: -2em;
-				margin-bottom: 3em;
 			}
+      .carousel article .image img {
+        width:18em;
+        display:block;
+      }
 
 			.carousel article p {
 				text-align: center;
