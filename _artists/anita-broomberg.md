@@ -1,10 +1,12 @@
 ---
-title: Anita Broomberg
+title: Exhibition Stand
 date: 2016-10-20 00:00:00 Z
 image:
   url: "../uploads/IMG_20160829_190651.jpg"
-description: "...."
-email: ebroomberg@msn.com
+description: "First Year Project
+4 weeks
+Brief: To exhibit a glass tea-set at a trade show
+A circular exhibition stand is created to display the tea-set in the round"
 layout: artists
 ---
 
