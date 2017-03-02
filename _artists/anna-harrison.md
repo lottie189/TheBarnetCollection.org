@@ -1,8 +1,8 @@
 ---
-title: Anna Harrison
+title: Exhibition Stand
 date: 2016-10-20 00:00:00 Z
 image:
-  url: example-member.jpg
+  url: CVPortfolio_Page_4.jpg
 layout: artists
 description: Self-contained fountains and outdoor chess pieces.
 email: annaharrison@aol.com
