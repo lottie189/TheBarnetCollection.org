@@ -1,5 +1,5 @@
 ---
-title: Radlett Arts Centre
+title: Dubai
 date: 2009-09-01 00:00:00 Z
 image:
   url: garden.jpg
