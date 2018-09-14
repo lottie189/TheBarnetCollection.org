@@ -1,5 +1,5 @@
 ---
-title: Whetstone Shop
+title: Paddington Bridges
 date: 2008-09-01 00:00:00 Z
 image:
   url: garden.jpg
