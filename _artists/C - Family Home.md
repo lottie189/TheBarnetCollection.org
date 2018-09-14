@@ -2,7 +2,7 @@
 title: Family Home
 date: 2016-10-20 00:00:00 Z
 image:
-  url: CVPortfolio_Page_6.jpg
+  url: P4272092.jpg
 layout: artists
 description: First year residential project (5 weeks)
 ---
