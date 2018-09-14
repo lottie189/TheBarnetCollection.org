@@ -2,7 +2,7 @@
 title: Visitor Centre
 date: 2016-10-20 00:00:00 Z
 image:
-  url: CVPortfolio_Page_8.jpg
+  url: DSC_0391.jpg
 layout: artists
 description: Second Year Project (4 weeks) 
 ---
