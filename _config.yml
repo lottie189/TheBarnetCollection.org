@@ -2,7 +2,7 @@
 title: Charlotte Hails
 timezone: UTC
 collections:
-  Artists:
+  artists:
     title: Artists
     output: true
     permalink: "/artists/:path/"
