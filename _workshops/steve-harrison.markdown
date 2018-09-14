@@ -1,15 +1,11 @@
 ---
-title: Steve Harrison
-date: 2016-10-20 00:00:00 Z
+title: Barbican Estate
+date: 2018-09-09 00:00:00 Z
 image:
   url: escape.png
   thumb: roundicons-thumbnail.png
   alt: Image description
 layout: workshops
 modal-id: 1
-description: In 2006 we ran a workshop when were treated to an excellent workshop
-  by Steve Harrison, who made mugs and teapots in his inimitable and excellently executed
-  manner.
+description: I took myself on a walking tour of the Barbican Estate on a sunny Sunday afternoon. Learning about the construction process and the initial design intent was fascinating.
 ---
-
-In 2006 we ran a workshop when were treated to an excellent workshop by Steve Harrison, who made mugs and teapots in his inimitable and excellently executed manner.
