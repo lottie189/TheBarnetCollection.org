@@ -3,7 +3,7 @@ title: Charlotte Hails
 timezone: UTC
 collections:
   Portfolio:
-    title: Portfolio
+    title: Artists
     output: true
     permalink: "/artists/:path/"
   exhibitions:
