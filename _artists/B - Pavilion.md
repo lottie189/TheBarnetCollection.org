@@ -2,7 +2,7 @@
 title: Pavilion
 date: 2016-10-20 00:00:00 Z
 image:
-  url: CVPortfolio_Page_5.jpg
+  url: DSC_0030_10.jpg
 layout: artists
 description: First Year (4 weeks)
 ---
