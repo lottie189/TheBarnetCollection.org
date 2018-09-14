@@ -1,5 +1,5 @@
 ---
-title: F - Exhibition Stand
+title: Exhibition Stand
 date: 2016-10-20 00:00:00 Z
 image:
   url: CVPortfolio_Page_4.jpg
