@@ -1,5 +1,5 @@
 ---
-title: Northaw Garden Event
+title: Clerkenwell Design Week
 date: 2008-06-01 00:00:00 Z
 image:
   url: garden.jpg
