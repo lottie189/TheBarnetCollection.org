@@ -1,5 +1,5 @@
 ---
-title: Open Weekend MILENA
+title: Site Visits
 date: 2010-09-01 00:00:00 Z
 image:
   url: garden.jpg
